@@ -8,7 +8,7 @@ import Contact from './Contact.js';
 function App() {
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename='/Test_githubpages'>
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
